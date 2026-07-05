@@ -9,7 +9,7 @@ HUANGCHIHHUNGLeo/claude-real-video を Mac で実務利用するための検証�
 京都ビルサービスで動画を AI 分析、文字起こし、マニュアル化へつなげる補助資料とラッパースクリプトを追加する。
 
 ## 現在のバージョン / 状態
-作業完了。上流 v0.5.2 をベースに、Mac 向け導入資料、京都ビルサービス向け業務活用資料、ラッパースクリプト、AI依頼テンプレートを追加済み。
+作業完了・push済み。上流 v0.5.2 をベースに、Mac 向け導入資料、京都ビルサービス向け業務活用資料、ラッパースクリプト、AI依頼テンプレートを追加済み。
 
 ## 協業ステータス
 <!-- claudecodex:モード時にClaude Codeが自動で記入する。通常モードでは空欄のまま -->
@@ -34,7 +34,7 @@ HUANGCHIHHUNGLeo/claude-real-video を Mac で実務利用するための検証�
 - [x] `docs/claude-real-video-setup.md` を作成する
 - [x] `docs/business-usecases.md` を作成する
 - [x] `scripts/video_to_ai.sh` と `samples/ai_prompt_template.md` を作成する
-- [ ] 変更を commit / push する
+- [x] 変更を commit / push する
 
 ## 現在の問題
 <!-- 行き詰まり時にここに書く。次の担当者が読む -->
@@ -47,8 +47,8 @@ HUANGCHIHHUNGLeo/claude-real-video を Mac で実務利用するための検証�
 - from: Codex
 - to: reviewer
 - branch: codex/mac-business-video-guide
-- commit: pending final commit
-- summary: Mac導入手順、京都ビルサービス向け業務活用、`video_to_ai.sh`、AI依頼テンプレートを追加。権利のない動画を前提にしない注意と、実測で見つけたREADME差分も記載。
+- commit: 77bbb0a
+- summary: Mac導入手順、京都ビルサービス向け業務活用、`video_to_ai.sh`、AI依頼テンプレートを追加。権利のない動画を前提にしない注意と、実測で見つけたREADME差分も記載。GitHub open Issue/PR は作業開始時点で0件。
 - tests: `pip install -e .`, `pip install -e ".[whisper]"`, `crv --help`, `python -m claude_real_video --help`, `compileall src`, local sample video, sidecar subtitle, Whisper tiny transcription, wrapper smoke test
 
 ## ファイル構成
